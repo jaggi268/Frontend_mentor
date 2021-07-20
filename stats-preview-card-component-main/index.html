@@ -8,7 +8,7 @@
   
   <title>Frontend Mentor | Stats preview card component</title>
   <style>
-    @media screen and (min-width:375px) and (max-width:1440px)
+    @media screen and (min-width:1440px)
     {
       .attribution { font-size: 11px; text-align: center; }
       .attribution a { color: hsl(228, 45%, 44%); }
@@ -109,7 +109,7 @@
         color: rgb(200, 255, 0);
       }
     }
-    @media screen and (max-width:375px) and (min-width:20px)
+    @media screen and (min-width:375px) and (max-width:1439px)
     {
       .attribution { font-size: 11px; text-align: center; }
       .attribution a { color: hsl(228, 45%, 44%); }
@@ -135,12 +135,13 @@
       {
         width: 400px;
         height: 330.38px;
-        position: absolute;
-        /* margin: 233.81px 0 0 0; */
+        position: relative;
+        left: 633px;
+        margin: 0px 0 0 0;
         float: top;
         text-align: center;
         opacity: 60%;
-        border-radius: 0px 20px 20px 0;
+        
       }
       p
       {
@@ -166,7 +167,7 @@
         height: 330.38px;
         background-color: hsl(244, 38%, 16%);
         display: inline-block;
-        margin: 330px 0 0 233.81px;
+        margin: 330px 0 0 633.81px;
         }
       .footer
       {
@@ -186,7 +187,9 @@
         width: 400px;
         height: 330.38px;
         display: inline;
-        position: absolute;
+        position: relative;
+        
+        left: 633px;
         /* margin: 233.81px 0 0 0; */
         background-color:hsl(277deg 100% 39%);
         border-radius: 0 20px 20px 0;;
