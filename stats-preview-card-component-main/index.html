@@ -119,7 +119,8 @@
         color: white;
         width: 1400px;
         height: 800px;
-        text-align: left;
+        text-align: center;
+        display: inline-block;
         background-color: hsl(233, 47%, 7%);
       }
       h2
@@ -130,18 +131,19 @@
         text-align: left;
         font-size: x-large;
         font-family: Arial, Helvetica, sans-serif;
+        margin-right: 40px;
+        margin-left: 40px;
       }
       img
       {
         width: 400px;
         height: 330.38px;
-        position: relative;
-        left: 633px;
-        margin: 0px 0 0 0;
-        float: top;
-        text-align: center;
+        justify-content: center;
+        display: inline-block;
         opacity: 60%;
-        
+        position: absolute;
+        left: 50%;
+        top: 450px;
       }
       p
       {
@@ -151,7 +153,9 @@
         color: rgb(155, 144, 161);
         font-family: arial;
         font-size: 0.7em;
-        width: 250px;
+        margin-right: 40px;
+        margin-left: 40px;
+        /* width: 250px; */
       }
       span
       {
@@ -164,11 +168,15 @@
       .text
       {
         width: 400px;
-        height: 330.38px;
+        height: 450px;
         background-color: hsl(244, 38%, 16%);
         display: inline-block;
-        margin: 330px 0 0 633.81px;
-        }
+        position:absolute;
+        bottom: 0px;
+        left: 50%;
+        top: 780px;
+        bottom: 300px;
+      }
       .footer
       {
         width: 90px;
@@ -176,8 +184,11 @@
         font-family: Arial, Helvetica, sans-serif;
         color : rgb(155, 144, 161);
         font-size: 0.8em;
-        padding-top: 20px;
+        padding: 10px 60px 30px 70px;
       }
+
+
+      
       .high
       {
         color: hsl(0, 0%, 100%);;	
@@ -186,13 +197,12 @@
       {
         width: 400px;
         height: 330.38px;
-        display: inline;
-        position: relative;
-        
-        left: 633px;
-        /* margin: 233.81px 0 0 0; */
+        display: inline-block;
         background-color:hsl(277deg 100% 39%);
-        border-radius: 0 20px 20px 0;;
+        position: absolute;      
+        left: 50%;
+        top: 450px;
+
       }
       .flex-box
       {
@@ -201,6 +211,9 @@
         font-size: 2em;
         color: aliceblue;
         margin-right: 100px;
+        position: absolute;
+        top: 1200px;
+        left: 500px;
       }
       .flex-box a
       {
@@ -215,7 +228,7 @@
         color: rgb(200, 255, 0);
       }
     }
-  </style>
+  
   </style>
 </head>
 <body>
