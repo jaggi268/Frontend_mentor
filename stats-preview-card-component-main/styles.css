@@ -1,0 +1,221 @@
+@media screen and (min-width:1440px)
+    {
+      .attribution { font-size: 11px; text-align: center; }
+      .attribution a { color: hsl(228, 45%, 44%); }
+      body
+      {
+        background-color: white;
+        color: white;
+        width: 1400px;
+        height: 800px;
+        text-align: left;
+        background-color: hsl(233, 47%, 7%);
+      }
+      h2
+      {
+        font-weight: 700  ;
+        color: hsl(0, 0%, 100%);
+        padding: 40px 50px 5px 50px;
+        text-align: left;
+        font-size: x-large;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      img
+      {
+        width: 400px;
+        height: 330.38px;
+        position: absolute;
+        margin: 233.81px 0 0 0;
+        opacity: 60%;
+        border-radius: 0px 20px 20px 0;
+      }
+      p
+      {
+        padding: 5px 50px;
+        line-height: 1.5;
+        text-align: left;
+        color: rgb(155, 144, 161);
+        font-family: arial;
+        font-size: 0.7em;
+        width: 250px;
+      }
+      span
+      {
+        color:hsl(277, 64%, 61%);
+      }
+      strong
+      {
+        font-size: 1.2em;
+      }
+      .text
+      {
+        width: 400px;
+        height: 330.38px;
+        background-color: hsl(244, 38%, 16%);
+        display: inline-block;
+        margin: 233.81px 0 0 233.81px;
+        }
+      .footer
+      {
+        width: 90px;
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+        color : rgb(155, 144, 161);
+        font-size: 0.8em;
+        padding-top: 20px;
+      }
+      .high
+      {
+        color: hsl(0, 0%, 100%);;	
+      }
+      .empty
+      {
+        width: 400px;
+        height: 330.38px;
+        display: inline;
+        position: absolute;
+        margin: 233.81px 0 0 0;
+        background-color:hsl(277deg 100% 39%);
+        border-radius: 0 20px 20px 0;;
+      }
+      .flex-box
+      {
+        margin-top: 100px;
+        text-align: center;
+        font-size: 2em;
+        color: aliceblue;
+        margin-right: 100px;
+      }
+      .flex-box a
+      {
+        text-decoration: none;
+      }
+      #companies
+      {
+        padding-left: 50px;
+      }
+      #high , .name
+      {
+        color: rgb(200, 255, 0);
+      }
+    }
+    @media screen and (min-width:375px) and (max-width:1439px)
+    {
+      .attribution { font-size: 11px; text-align: center; }
+      .attribution a { color: hsl(228, 45%, 44%); }
+      body
+      {
+        background-color: white;
+        color: white;
+        width: 1400px;
+        height: 800px;
+        text-align: center;
+        display: inline-block;
+        background-color: hsl(233, 47%, 7%);
+      }
+      h2
+      {
+        font-weight: 700  ;
+        color: hsl(0, 0%, 100%);
+        padding: 40px 50px 5px 50px;
+        text-align: left;
+        font-size: x-large;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-right: 40px;
+        margin-left: 40px;
+      }
+      img
+      {
+        width: 400px;
+        height: 330.38px;
+        justify-content: center;
+        display: inline-block;
+        opacity: 60%;
+        position: absolute;
+        left: 50%;
+        top: 450px;
+      }
+      p
+      {
+        padding: 5px 50px;
+        line-height: 1.5;
+        text-align: left;
+        color: rgb(155, 144, 161);
+        font-family: arial;
+        font-size: 0.7em;
+        margin-right: 40px;
+        margin-left: 40px;
+        /* width: 250px; */
+      }
+      span
+      {
+        color:hsl(277, 64%, 61%);
+      }
+      strong
+      {
+        font-size: 1.2em;
+      }
+      .text
+      {
+        width: 400px;
+        height: 450px;
+        background-color: hsl(244, 38%, 16%);
+        display: inline-block;
+        position:absolute;
+        bottom: 0px;
+        left: 50%;
+        top: 780px;
+        bottom: 300px;
+      }
+      .footer
+      {
+        width: 90px;
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+        color : rgb(155, 144, 161);
+        font-size: 0.8em;
+        padding: 10px 60px 30px 70px;
+      }
+
+
+      
+      .high
+      {
+        color: hsl(0, 0%, 100%);;	
+      }
+      .empty
+      {
+        width: 400px;
+        height: 330.38px;
+        display: inline-block;
+        background-color:hsl(277deg 100% 39%);
+        position: absolute;      
+        left: 50%;
+        top: 450px;
+
+      }
+      .flex-box
+      {
+        margin-top: 100px;
+        text-align: center;
+        font-size: 2em;
+        color: aliceblue;
+        margin-right: 100px;
+        position: absolute;
+        top: 1200px;
+        left: 500px;
+      }
+      .flex-box a
+      {
+        text-decoration: none;
+      }
+      #companies
+      {
+        padding-left: 50px;
+      }
+      #high , .name
+      {
+        color: rgb(200, 255, 0);
+      }
+    }
+  
