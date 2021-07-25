@@ -1,10 +1,61 @@
-h1
-{
-    text-align: left;
-}
-.column
+body
 {
     text-align: center;
-    width: 400px;
-    margin-top: 25%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    color: white;
+}
+.parent
+{
+    font-size: 0px;
+}
+.cars
+{
+    display: inline-block;
+    height: 452px;
+    width: 278px;
+    outline: none;
+    vertical-align:baseline;
+}
+.cars h1
+{
+    position: relative;
+    top: 106px;
+    font-size: 40px;
+    left: 40px;
+    text-align: left;
+    letter-spacing:-2px;
+}
+.cars p
+{
+    font-size: 13px;
+    position: relative;
+    top: 128px;
+    height: 107px;
+    text-align: center;
+}
+.sedan
+{
+    background-color: #E28525;
+}
+.sedan h1
+{
+    width: 126px;
+}
+.suv
+{
+    background-color: #016972;
+}
+.suv h1
+{
+    width: 90px;
+}
+.luxury
+{
+    background-color: #00403F;
+}
+.luxury h1
+{
+    width: 123px;
 }
