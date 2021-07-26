@@ -21,24 +21,29 @@ body
 
 .cars h1
 {
+    height: 53px;
     position: relative;
     top: 106px;
     font-size: 40px;
     left: 40px;
     text-align: left;
     letter-spacing:-2px;
+    color: hsl(0, 0%, 95%);
 }
 .cars p
 {
     font-size: 13px;
+    width: 177px;
+    height: 107px;
     position: relative;
     top: 128px;
-    height: 107px;
-    text-align: center;
+    left: 40px;
+    text-align: left;
+    color: hsla(0, 0%, 100%, 0.75);
 }
 .sedan
 {
-    background-color: #E28525;
+    background-color: hsl(31, 77%, 52%);
 }
 .sedan h1
 {
@@ -46,7 +51,7 @@ body
 }
 .suv
 {
-    background-color: #016972;
+    background-color: hsl(184, 100%, 22%);
 }
 .suv h1
 {
@@ -54,9 +59,20 @@ body
 }
 .luxury
 {
-    background-color: #00403F;
+    background-color: hsl(179, 100%, 13%);
 }
 .luxury h1
 {
     width: 123px;
+}
+.learn-more
+{
+    font-size: 13px;
+    position: relative;
+    width: 132px;
+    height: 49px;
+    top: 145px;
+    right: 30px;
+    border: none;
+    border-radius: 100px;
 }
