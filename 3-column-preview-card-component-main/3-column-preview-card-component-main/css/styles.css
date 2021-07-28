@@ -75,7 +75,6 @@ body
     right: 30px;
     border: none;
     border-radius: 100px;
-<<<<<<< HEAD
     font-weight: 500;
     opacity: 90%;
 }
@@ -115,8 +114,14 @@ img
     top: 40px;
     right: 68px;
 }
-=======
+@media (min-width:375px)
+{
+    body
+    {
+        position: absolute;
+        top: 10%;
+        right: 5%;
+        left: 5%;
+
+    }
 }
-/* Update the positions of buttons and Adobe XD design */
-/* Experiment with flex properties */
->>>>>>> 6284b049391100b856b26da26078ef6ef1f79227
