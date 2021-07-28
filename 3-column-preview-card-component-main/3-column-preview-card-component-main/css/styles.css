@@ -23,7 +23,7 @@ body
 {
     height: 53px;
     position: relative;
-    top: 106px;
+    top: 46px;
     font-size: 40px;
     left: 40px;
     text-align: left;
@@ -36,7 +36,7 @@ body
     width: 177px;
     height: 107px;
     position: relative;
-    top: 128px;
+    top: 68px;
     left: 40px;
     text-align: left;
     color: hsla(0, 0%, 100%, 0.75);
@@ -71,8 +71,46 @@ body
     position: relative;
     width: 132px;
     height: 49px;
-    top: 145px;
+    top: 117px;
     right: 30px;
     border: none;
     border-radius: 100px;
+    font-weight: 500;
+    opacity: 90%;
+}
+.button-sedans
+{
+    color: #E28525;
+}   
+.button-sedans:hover
+{
+    background-color: #E28525;
+    border: white 2px solid;
+    color: #fff;
+}  
+.button-suv
+{
+    color: #016972;
+}   
+.button-suv:hover
+{
+    background-color: #016972;
+    border: white 2px solid;
+    color: #fff;
+}
+.button-luxury
+{
+    color: #00403F;
+}   
+.button-luxury:hover
+{
+    background-color: #00403F;
+    border: white 2px solid;
+    color: #fff;
+}
+img
+{
+    position: relative;
+    top: 40px;
+    right: 68px;
 }
