@@ -75,6 +75,7 @@ body
     right: 30px;
     border: none;
     border-radius: 100px;
+<<<<<<< HEAD
     font-weight: 500;
     opacity: 90%;
 }
@@ -114,3 +115,8 @@ img
     top: 40px;
     right: 68px;
 }
+=======
+}
+/* Update the positions of buttons and Adobe XD design */
+/* Experiment with flex properties */
+>>>>>>> 6284b049391100b856b26da26078ef6ef1f79227
