@@ -114,7 +114,7 @@ img
     top: 40px;
     right: 68px;
 }
-@media (min-width:375px)
+@media (min-width:200px)
 {
     body
     {
