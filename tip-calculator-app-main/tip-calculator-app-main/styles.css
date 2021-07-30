@@ -192,6 +192,7 @@ h1{
 {
     position: relative;
     font-size: 20px;
+<<<<<<< HEAD
     top: -60px;
 }
 .warning
@@ -227,3 +228,7 @@ button:hover,.button-reset:hover
     background-color: hsl(172, 67%, 45%);
     color: hsl(183, 100%, 15%);
 }
+=======
+}
+/* Update Responsiveness and add states for buttons */
+>>>>>>> bff93e3d56c8d80de979bc5f266289c663f8977f
