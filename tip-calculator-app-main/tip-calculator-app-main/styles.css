@@ -292,7 +292,10 @@ button:hover,
   .tip-amount {
     display: inline-block;
     width: 130px;
-    
+    position: relative;
+    margin-top: 20px;
+    top: -30;
+    top: -50px;
   }
   html {
     height: 940px;
