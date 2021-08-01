@@ -8,6 +8,7 @@ input {
 }
 body {
   background-color: #c5e4e7;
+  padding: 2px;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
