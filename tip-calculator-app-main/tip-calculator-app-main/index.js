@@ -1,4 +1,9 @@
 var flag = 0;
+document.querySelector(".button-reset").addEventListener("mouseover", function (event) {
+    event.target.style = {backgroundColor: "#9FE8DF",
+        color: "#014845",
+        fontWeight: 600}
+})
 document.querySelector("#input1").addEventListener("keyup", function (event) {
     var bill = event.target.value;
     document.querySelector(".button-reset").style.backgroundColor = "#26C2AD";
