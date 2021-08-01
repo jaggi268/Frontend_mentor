@@ -9,6 +9,8 @@ for (var i = 1; i <= 5; i++) {
         .querySelector("#button-" + i)
         .addEventListener("click", function (event) {
             event.target.classList.add("button-selected");
+            document.querySelector(".button-reset").style.backgroundColor = "#26C2AD";
+            document.querySelector(".button-reset").style.color = "#065E62";
             // setTimeout(function(){event.target.classList.remove("button-selected")},1000);
         });
 }
