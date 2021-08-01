@@ -31,19 +31,19 @@
     <div class="main-card">
       <h1 class="bill-heading billing">Bill</h1>
 
-      <input class="bill billing bill-input" type="number" placeholder="0">
+      <input onselect="keyup(this)" id="input1" class="bill billing bill-input" type="number" placeholder="0">
       <h1 class="select-tip">Select Tip %</h1>
       <div class="button-group">
-        <button onclick="myFunction(this)" id="button-1" class="grid" type="button" value="5">5%</button>
-        <button onclick="myFunction(this)" id="button-2" class="grid" type="button" value="10">10%</button>
-        <button onclick="myFunction(this)" id="button-3" class="grid" type="button" value="15">15%</button>
+        <button  id="button-1" class="grid" type="button" value="5">5%</button>
+        <button  id="button-2" class="grid" type="button" value="10">10%</button>
+        <button  id="button-3" class="grid" type="button" value="15">15%</button>
         <!-- <br> -->
-        <button onclick="myFunction(this)" id="button-4" class="grid" type="button" value="25">25%</button>
-        <button onclick="myFunction(this)" id="button-5" class="grid" type="button" value="50">50%</button>
-        <input class="grid button-custom" type="text" placeholder="Custom">
+        <button  id="button-4" class="grid" type="button" value="25">25%</button>
+        <button  id="button-5" class="grid" type="button" value="50">50%</button>
+        <input onselect="keyup(this)" id="input2" class="grid button-custom" type="text" placeholder="Custom">
         <h1 class="no-of-people-heading footer f1">Number of People</h1>
         <p class="warning f1">Can't be zero</p>
-        <input class="no-of-people footer f1" type="number" placeholder="0">
+        <input id="input3" class="no-of-people footer f1" type="number" placeholder="0">
       </div>
       <div class="upper-card">
         <h1 class="subhead"><span class="tip">Tip Amount</span><br>

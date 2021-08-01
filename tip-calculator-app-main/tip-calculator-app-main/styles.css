@@ -185,6 +185,7 @@ h1 {
   top: -29px;
   left: 250px;
   font-weight: 600;
+  visibility: hidden;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
