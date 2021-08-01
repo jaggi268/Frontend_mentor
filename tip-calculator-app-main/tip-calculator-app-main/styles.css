@@ -222,7 +222,7 @@ button:hover,
 }
 @media (max-width: 375px) {
   .main-card {
-    width: 377px;
+    width: auto;
     height: 970px;
     display: inline-block;
     background-color: #fff;
