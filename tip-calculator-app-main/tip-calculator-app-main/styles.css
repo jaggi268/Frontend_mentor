@@ -154,7 +154,7 @@ h1 {
 .no-of-people-heading {
   margin-left: 0px;
   position: relative;
-  top: 10px;
+  top: 15px;
 }
 .footer h1 {
   position: relative;
@@ -186,7 +186,7 @@ h1 {
   width: 150px;
   position: relative;
   display: inline-block;
-  top: -36px;
+  top: -31px;
   left: 250px;
   font-weight: 600;
   visibility: hidden;

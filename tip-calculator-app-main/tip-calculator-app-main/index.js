@@ -20,6 +20,8 @@ for (var i = 1; i <= 5; i++) {
 // });
 document.querySelector("#input3").addEventListener("keyup", function (event) {
     var people = event.target.value;
+    document.querySelector(".button-reset").style.backgroundColor = "#26C2AD";
+    document.querySelector(".button-reset").style.color = "#065E62";
     // division(custom_percent);
     extract();
 });
@@ -51,8 +53,8 @@ function extract() {
             flag = 1;
         }
     }
-    if (flag==0) {
-        percent= document.querySelector("#input2").value;
+    if (flag == 0) {
+        percent = document.querySelector("#input2").value;
     }
     if (people == 0) {
         document.querySelector(".warning").style.visibility = "visible";
