@@ -48,12 +48,10 @@ function extract() {
             percent = document.querySelector(".button-selected").value;
             flag = 1;
         }
-        else
-        {
-            percent = document.querySelector("#input2").value;
-        }
     }
-    
+    if (flag==0) {
+        percent= document.querySelector("#input2").value;
+    }
     if (people == 0) {
         document.querySelector(".warning").style.visibility = "visible";
         document.querySelector(".tip-amount").innerHTML = "$0.00";
