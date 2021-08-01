@@ -70,11 +70,13 @@ h1 {
   height: 50px;
   margin: 10px 5px;
   border: none;
-  font-size: 24px;
-  background-color: hsl(184, 14%, 56%);
+  font-size: 20px;
+  background-color: #0D686D;
+  font-weight: 600;
   position: relative;
   top: -120px;
   left: 40px;
+  color: #065E62;
 }
 .no-of-people {
   background-image: url(images/icon-person.svg);
@@ -178,7 +180,7 @@ h1 {
   top: -80px;
 }
 .warning {
-  color: red;
+  color: orange;
   width: 150px;
   position: relative;
   display: inline-block;
@@ -207,8 +209,15 @@ input:focus {
 }
 button:hover,
 .button-reset:hover {
-  background-color: hsl(172, 67%, 45%);
-  color: hsl(183, 100%, 15%);
+  background-color: #9FE8DF;
+  color: #014845;
+  font-weight: 600;
+}
+.button-selected
+{
+  background-color: #26C2AD;
+  color: #014845;
+  font-weight: 600;
 }
 @media (max-width: 375px) {
   .main-card {

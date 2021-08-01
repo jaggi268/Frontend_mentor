@@ -1,7 +1,9 @@
 var flag = 0;
-// document.querySelector("#input1").addEventListener("keyup", function (event) {
-//     var bill = event.target.value;
-// });
+document.querySelector("#input1").addEventListener("keyup", function (event) {
+    var bill = event.target.value;
+    document.querySelector(".button-reset").style.backgroundColor = "#26C2AD";
+    document.querySelector(".button-reset").style.color = "#065E62";
+});
 for (var i = 1; i <= 5; i++) {
     document
         .querySelector("#button-" + i)
@@ -20,12 +22,18 @@ document.querySelector("#input3").addEventListener("keyup", function (event) {
     extract();
 });
 document.querySelector("#reset").addEventListener("click", function (event) {
+    document.querySelector(".button-reset").style.backgroundColor = "#0D686D";
     document.querySelector(".warning").style.visibility = "hidden";
     document.querySelector(".tip-amount").innerHTML = "$0.00";
     document.querySelector(".total-amount").innerHTML = "$0.00";
     document.querySelector("#input1").value = "";
     document.querySelector("#input2").value = "";
     document.querySelector("#input3").value = "";
+    for (let i = 0; i < 5; i++) {
+        document
+            .querySelector(".button-selected")
+            .classList.remove("button-selected");
+    }
 });
 
 function extract() {
@@ -40,14 +48,16 @@ function extract() {
             percent = document.querySelector(".button-selected").value;
             flag = 1;
         }
+        else
+        {
+            percent = document.querySelector("#input2").value;
+        }
     }
-    if (flag == 0) {
-        percent = document.querySelector("#input2").value;
-    }
+    
     if (people == 0) {
         document.querySelector(".warning").style.visibility = "visible";
-        document.querySelector(".tip-amount").innerHTML = "NaN";
-        document.querySelector(".total-amount").innerHTML = "NaN";
+        document.querySelector(".tip-amount").innerHTML = "$0.00";
+        document.querySelector(".total-amount").innerHTML = "$0.00";
     } else {
         document.querySelector(".warning").style.visibility = "hidden";
         var tip = Number((((percent / 100) * bill) / people).toFixed(2));
