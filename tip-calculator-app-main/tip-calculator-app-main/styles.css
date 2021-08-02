@@ -9,6 +9,7 @@ input {
 body {
   background-color: #c5e4e7;
   padding: 2px;
+  height: 1024px;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -75,7 +76,7 @@ h1 {
   background-color: #0D686D;
   font-weight: 600;
   position: relative;
-  top: -120px;
+  top: -160px;
   left: 40px;
   color: #065E62;
 }
@@ -154,7 +155,7 @@ h1 {
 .no-of-people-heading {
   margin-left: 0px;
   position: relative;
-  top: 15px;
+  top: 5px;
 }
 .footer h1 {
   position: relative;
@@ -171,7 +172,7 @@ h1 {
   color: hsl(185, 41%, 84%);
 }
 .subhead y,
-.subhead1 y {
+.subhead1 p {
   font-size: 15px;
   color: hsl(189, 41%, 97%);
 }
@@ -194,7 +195,7 @@ h1 {
 }
 input.footer {
   position: relative;
-  top: -40px;
+  top: -60px;
   margin-top: 10px;
 }
 input {
@@ -303,8 +304,8 @@ button:hover,
     margin-top: 30px;
   }
   .tip-amount {
-    display: inline-block;
-    width: 130px;
+    width: 150px;
+    display: block;
     position: relative;
     margin-top: 20px;
     top: -30;
