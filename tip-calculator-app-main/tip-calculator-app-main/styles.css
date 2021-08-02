@@ -389,6 +389,8 @@ button:hover,
     margin-top: 0px;
     padding-left: 0px;
     margin-left: 20px;
+    position: relative;
+    left: -20px;
   }
 
   .subhead h1,
