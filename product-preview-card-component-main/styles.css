@@ -1,0 +1,44 @@
+@import url('https://fonts.google.com/specimen/Montserrat');
+@import url('https://fonts.google.com/specimen/Fraunces');
+#sectionCard{
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+}
+
+.card-image{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.description-container{
+    background-color: #ffffff;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.perfume-heading{
+    font-family: "Roboto";
+    letter-spacing: 5px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.language-style{
+    font-family: "Montserrat";
+}
+
+.description{
+    font-family: "Fraunces";
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.main-price{
+    font-weight: 700;
+    font-family: "Montserrat";
+    font-size: 40px;
+}
+
+.add-to-cart-button{
+    width: 90% !important;
+}
